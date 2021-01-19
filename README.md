@@ -6,6 +6,7 @@ Crwl is a concurrent web crawler written in Go.
 ## Usage
 
 Crwl allows you to specify:
+- The URL to be fetched via the `--url` flag
  - The number of URLs that can be fetched in parallel via the `--workers` flag (default: 20)
  - The request timeout duration for fetching each URL via the `--timeout` flag (default: 30 seconds)
 
